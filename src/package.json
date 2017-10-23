@@ -1,0 +1,25 @@
+{
+  "name": "SEPA_xml",
+  "version": "0.0.1",
+  "description": "Generar document SEPA amb un Excel",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --recursive ./test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgarcia-cat/SEPA_GenerateWithTemplate.git"
+  },
+  "author": "Raul Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.9.3",
+    "fs": "0.0.2",
+    "jsonstream": "^1.0.3",
+    "mocha": "^2.5.3",
+    "mysql": "^2.11.1",
+    "utf8": "^2.1.1",
+    "xlsx": "^0.8.0"
+  }
+}
